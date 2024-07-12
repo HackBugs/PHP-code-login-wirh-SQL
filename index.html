@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="C:\xampp\htdocs\my-website\Form\index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to My Website</h2>
+            <p>This is a responsive website example with a cool design.</p>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate developers creating awesome websites.</p>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" method="POST" action="http://localhost/my-website/process.php">
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Submit</button>
+            </form>            
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 My Website</p>
+                <div class="about-section">
+                    <h3>About</h3>
+                    <p>This website was created to showcase our projects and expertise in web development.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
